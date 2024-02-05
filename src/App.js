@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import { Header } from './components';
+import { BookingSummary, Header } from './components';
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <BookingSummary />
     </div>
   );
 }
