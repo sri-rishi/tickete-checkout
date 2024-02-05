@@ -1,0 +1,263 @@
+.booking-summary-box {
+    display: flex;
+    flex-direction: column;
+    color: var(--c-text-grey-primary);
+    max-width: 24rem;
+    border: 1px solid var(--c-border-grey-divider-default);
+    border-radius: 24px 24px 12px 12px;
+}
+
+.booking-summary {
+    padding: 1rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.booking-cover {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--c-surface-default);
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: var(--c-l-grey-10);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.1rem;
+}
+
+.trophy-icon {
+    font-size: 14px;
+}
+
+.booking-arrow-btn-box {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.booking-arrow-btn {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    font-size: 1rem;
+    background-color: var(--c-fill-grey-light);
+    color: var(--c-l-grey-905);
+    border: none;
+    border-radius: 50%;
+}
+
+.pagination-box {
+    width: 7rem;
+    height: 8px;
+    position: absolute;
+    bottom: 2rem;
+    left: 35%;
+}
+
+.booking-summary-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.rating-box-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.rating-star {
+    width: 14px;
+    height: 14px;
+    margin-top: -5px;
+}
+
+.rating-box {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25rem;
+} 
+
+.rating-value {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.text-gray-secondary {
+    color: var(--c-text-grey-secondary);
+    font-weight: 400;
+}
+
+.booking-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+}
+
+.booking-details-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.booking-details {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.booking-details-icons {
+    font-size: 1.25rem;
+}
+
+.booking-details-title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.booking-details-sub-title {
+    font-size: 12px;
+    line-height: 1.1rem;
+}
+
+.hr-line {
+    border: 1px dashed var(--c-border-grey-divider-default);
+}
+
+.view-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: var(--c-text-grey-secondary);
+}
+
+.plus-icon {
+    font-size: 1.5rem;
+    color: var(--c-text-grey-secondary);
+}
+
+.booking-ammount-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.booking-ammount-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.booking-confirmation {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-top: 1px solid var(--c-border-grey-divider-default);
+    padding: 1rem 1rem 2rem;
+}
+
+.booking-ammount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+
+.saved-price {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 6px;
+    background-color: var(--c-l-green-2);
+    border-radius: 8rem;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.125rem;
+    color: var(--c-l-green-9);
+}
+
+.charged-unit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.pay-btn-box {
+    display: none;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.confirmation-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.1rem;
+    color: var(--c-text-grey-secondary);
+}
+
+.indigo-color-text {
+    color: var(--c-l-indigo-9);
+    text-decoration-line: underline;
+}
+
+.pay-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 1rem 1.125rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--c-surface-default-inverse);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--c-d-grey-10);
+}
+
+@media only screen and (min-width: 37em) {
+    .booking-arrow-btn-box {
+        display: flex;
+    }
+
+    .pay-btn-box {
+        display: flex;
+    }
+}
+
+
