@@ -1,0 +1,56 @@
+@import "./components/index.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+:root {
+  --c-text-grey-secondary: #60646C;
+  --c-fill-grey-solid: #7E808A;
+  --c-l-grey-10: #1C2024;
+  --c-surface-default-inverse: #000000;
+  --c-l-grey-05: #FCFCFD;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+  
+h1, h2, h3, h4, h5, h6, p {
+  margin-block-start: 0;
+  margin-block-end: 0; 
+}
+  
+ul {
+  list-style: none;
+}
+  
+  
+img {
+  width: 100%;
+  object-fit: cover;
+}
+  
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-border-none-bg-trans{
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.App {
+  font-family: 'Open Sans', sans-serif;
+}
