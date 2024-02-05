@@ -9,11 +9,20 @@
 }
 
 :root {
+  --c-text-grey-primary: #1C2024;
   --c-text-grey-secondary: #60646C;
   --c-fill-grey-solid: #7E808A;
+  --c-fill-grey-light: #F9F9FBBF;
   --c-l-grey-10: #1C2024;
   --c-surface-default-inverse: #000000;
   --c-l-grey-05: #FCFCFD;
+  --c-surface-default: #FFFFFF;
+  --c-l-grey-905: #60646C;
+  --c-border-grey-divider-default: #DDDDE3;
+  --c-l-green-2: #E9F9EE;
+  --c-l-green-9: #299764;
+  --c-l-indigo-9: #3A5CCC;
+  --c-d-grey-10: #EDEEF0;
 }
 
 a {
